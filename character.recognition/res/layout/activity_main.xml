@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.arch.vaani.MainActivity" 
+    android:background="@drawable/bg">
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" 
+        android:fillViewport="true" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="468dp"
+        android:orientation="vertical"
+        android:padding="60dp"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/viewImage1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="170dp"
+            android:src="@drawable/upload"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/viewImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="-50dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/camera"
+            android:visibility="visible" />
+
+    </AbsoluteLayout></ScrollView>
+</LinearLayout>

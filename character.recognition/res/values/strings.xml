@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Character Recognition</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="camera">Camera</string>
+    <string name="upload">Upload</string>
+    <color name="opaque_red">#f00</color>
+    <string name="next_name">Image</string>
+    <string name="preview_name">CameraPreview</string>
+    <string name="sel">Select Text</string>
+    <string name="rot">Rotate Text</string>
+    <string name="nex">Next</string>
+    <string name="choose">Choose Language</string>
+    <color name="white">#e0f2f6 </color>
+    <string name="rec">Recognised Text</string>
+	<string name="trans">Translated Text</string>
+	<string name="language_prompt">Choose a language</string>
+	<string-array name="language_arrays"> 
+	    <item>Choose a Language</item> 
+	    <item>English</item> 
+	    <item>French</item> 
+	    <item>Spanish</item> 
+	    <item>Hindi</item> 
+	    <item>Mandarin</item> 
+	    <item>German</item> 
+	</string-array>
+	<string name="result">Translation</string>
+    <string name="sub">Translate</string>
+
+</resources>
